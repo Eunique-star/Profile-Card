@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div id="img-container">
+            <img src="eunice.jpg" data-testid="profilePicture" alt="My profile picture">
+        </div>
+        <div class="details">
+            <h2 data-testid="fullName">EUNICE OHILEBO</h2>
+            <p data-testid="jobTitle" id="title">Front-End Web Developer</p>
+        </div>
+        <div class="details" data-testid="shortBio">
+            <h3>About Me:</h3>
+            <p>Hey there! I'm Eunice, a Frontend Developer and Tech Enthusiast who’s super passionate about technology, 
+                AI, and web development. I love bringing ideas to life through code and exploring the latest tech trends. 
+                When I'm not coding, you’ll find me reading, vibing to good music, or playing around with AI tools. Always curious, always learning! 
+                <br>Let’s connect and build something awesome! </p>
+        </div>
+        <div class="details">
+            <h3 data-testid="currentLocation">Location:</h3>
+            <p>Benin City, Edo state, Nigeria</p>
+            <h3 data-testid="emailAddress">Contact Me:</h3>
+            <p><a href="mailto:euniceohilebo05@gmail.com">euniceohilebo05@gmail.com</a></p>
+            <h3 data-testid="socialLinks">Follow Me:</h3>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/EuniceOhilebo?t=GUF9DowFQ0sBAdPhtOBUjQ&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <footer>
+            <p>Current UTC Time:
+                <br><span id="utc-time" data-testid="currentTimeUTC"></span>
+            </p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
